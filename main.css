@@ -1,0 +1,279 @@
+*html{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: white;
+    /* flex-direction: row; */
+    position: relative;
+    padding: 8px;
+}
+.hea{
+    display: flex;
+    align-items: flex-end;
+    /* max-width: 100%; */
+}
+.hea img{
+    width: 50px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+.inicio{
+    display: flex;
+    position: relative;
+    left: 45%;
+}
+.inicio a{
+    display: flex;
+    position: relative;
+    left: 20px;
+    text-decoration: none;
+}
+.crear {
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+.crear a{
+    color: blue;
+    border: blue solid 2px;
+    padding: 5px 35px;
+    border-radius: 10px;
+}
+body{
+    background-color: #EFEFEF;
+}
+main{
+    display: flex;
+    /* max-width: auto; */
+    /* justify-content: center; */
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+}
+.sidebar img{
+    width: 30px;
+    height: 30px;
+}
+/* .pagPrincipal{
+    display: flex;
+    border: green solid 2px;
+} */
+section{
+    /* border: 1px solid red; */
+    width: 700px;
+    margin: 10px;
+}
+article, .articulo{
+    /* border: 1px solid red; */
+    margin: 5px;
+    height: auto;
+}
+.articulo{
+    border: .5px solid grey;
+    border-radius: 5px;
+    background-color: white;
+}
+.arriba{
+    display: flex;
+}
+.arribar, nav, ul, li{
+    display: flex;
+    padding-right: 40px;
+}
+.imagen1{
+    width: 100%;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo:hover{
+    color: #3535F0;
+}
+.img_chica{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 50%;
+}
+/* .comentary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: gray solid 2px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+} */
+h1{
+    color: blue;
+}
+.home{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.cta span a{
+    text-decoration: none;
+    display: flex;
+    color: rgb(8, 8, 10);
+    justify-content: center;
+    border: none;
+}
+.cta a{
+    text-decoration: none;
+    justify-content: center;
+    padding: 5px 30px;
+    border: blue solid 2px;
+    border-radius: 10px;
+    display:flex ;
+    color: blue;
+}
+.other{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.redes{
+    padding-top: 40px;
+display: flex;
+}
+.pagPrincipal{
+    display: flex;
+    max-width: 80%;
+ }
+.item1{
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px;
+}
+.item1 img{
+    width: 50px;
+    display: flex;
+}
+.bar{
+    display: flex;
+}
+nav{
+    display: flex;
+}
+.imagen{
+    width: .4px;
+}
+.item2{
+    border: black solid 1px;
+    padding: 10px;
+}
+
+.aside{
+    border: rgb(214, 212, 212) solid 2px;
+    max-width: 20%;
+    border-radius: 10px;
+}
+.home a{
+text-decoration: none;
+color:black;
+}
+.other a{
+    text-decoration: none;
+    color: black;
+
+}
+.comentary{
+    display: flex;
+    flex-direction: column;
+    border: rgb(230, 228, 228) solid 3px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: blue;
+    color:white;
+}
+
+a:hover span a{
+    background-color: aliceblue;
+    color: blue;
+}
+div.cuarta a:hover{
+    background-color: rgb(241, 241, 255);
+    color: blue;
+}
+div.cuarta:hover{
+    background-color: rgb(253, 254, 255);
+}
+
+.tercera img{
+    width: 210px;
+    height: 160px;
+}
+
+div.cta.span:hover{
+    background-color: rgb(223, 222, 222);
+    color: #2626dd;
+}
+.cuarta a{
+    color:black;
+}
+
+div.home a:hover{
+    background-color: rgb(209, 205, 205);
+    color: blue;
+}
+
+div.other a:hover{
+    background-color: rgb(209, 205, 205);
+    color: blue;
+
+}
+
+.arriba a{
+    color: black;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+.cuarta a{
+    text-decoration: none;
+}
+
+.aside .boton1, .boton2{
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+    border-radius: 5px;
+    background: rgb(57, 57, 236);
+    color: white;
+    }
+
+.boton2{
+    background: rgb(177, 174, 174);
+    color: black;
+    margin-top: 20px;
+}
+
+.boton1:hover{
+    background-color: #2a2a70;
+}
+
+.boton2:hover{
+    background-color: rgb(73, 72, 72);
+}
+
+div.arriba a{
+    background-color: white;
+    color: blue;
+}
+
+.arriba a{
+font-weight: bold;
+}
